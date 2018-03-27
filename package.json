@@ -1,0 +1,19 @@
+{
+  "name": "sentimenta",
+  "version": "0.0.0",
+  "description": "A sentiment analyzing journal application",
+  "repository": "https://github.com/uniqueusername/sentimenta",
+  "main": "server,js",
+  "author": "Aryan Jha <aryan@jha.io>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "*",
+    "sentiment": "*",
+    "socket.io": "*",
+    "vis": "*",
+    "json-beautify": "*"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
